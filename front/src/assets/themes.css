@@ -1,0 +1,135 @@
+/* ═══════════════════════════════════════════════
+   SmartHome 主题系统
+   ═══════════════════════════════════════════════ */
+
+/* ── 默认清新主题 (Default) ── */
+[data-theme="default"] {
+  --bg-primary: #f5f7fa;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8faff;
+  --bg-sidebar: #ffffff;
+  --bg-modal: #ffffff;
+
+  --accent: #4a90d9;
+  --accent-soft: #e8f0fe;
+  --accent2: #5bb8b0;
+  --accent2-soft: #e6f5f3;
+  --accent3: #e88060;
+  --accent3-soft: #fdf0ec;
+
+  --green: #5bb85a;
+  --green-soft: #e8f6e8;
+  --orange: #e8a84a;
+  --orange-soft: #fdf5e6;
+  --pink: #e88090;
+  --pink-soft: #fdf0f2;
+
+  --text-primary: #2c3e50;
+  --text-secondary: #7a8ba3;
+  --text-muted: #b0bec5;
+  --border: #e8edf2;
+  --border-light: #f0f3f7;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow: 0 4px 16px rgba(0,0,0,0.06);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 25px rgba(74,144,217,0.1);
+}
+
+/* ── 深色主题 (Dark) ── */
+[data-theme="dark"] {
+  --bg-primary: #0f0f1a;
+  --bg-card: #1a1a30;
+  --bg-card-hover: #222242;
+  --bg-sidebar: #12122a;
+  --bg-modal: #181838;
+
+  --accent: #7c6cf0;
+  --accent-soft: rgba(124,108,240,0.15);
+  --accent2: #00d2d3;
+  --accent2-soft: rgba(0,210,211,0.12);
+  --accent3: #ff6b6b;
+  --accent3-soft: rgba(255,107,107,0.12);
+
+  --green: #00b894;
+  --green-soft: rgba(0,184,148,0.12);
+  --orange: #fdcb6e;
+  --orange-soft: rgba(253,203,110,0.12);
+  --pink: #fd79a8;
+  --pink-soft: rgba(253,121,168,0.12);
+
+  --text-primary: #e8e8f5;
+  --text-secondary: #8888bb;
+  --text-muted: #555588;
+  --border: rgba(255,255,255,0.08);
+  --border-light: rgba(255,255,255,0.04);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow: 0 8px 32px rgba(0,0,0,0.5);
+  --shadow-lg: 0 12px 48px rgba(0,0,0,0.6);
+  --shadow-hover: 0 8px 32px rgba(124,108,240,0.15);
+}
+
+/* ── 海洋主题 (Ocean) ── */
+[data-theme="ocean"] {
+  --bg-primary: #eef5f9;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0f8ff;
+  --bg-sidebar: #ffffff;
+  --bg-modal: #ffffff;
+
+  --accent: #0984e3;
+  --accent-soft: #dff0fa;
+  --accent2: #00b894;
+  --accent2-soft: #dff5ed;
+  --accent3: #e17055;
+  --accent3-soft: #fdf0ea;
+
+  --green: #00b894;
+  --green-soft: #dff5ed;
+  --orange: #f39c12;
+  --orange-soft: #fef5e7;
+  --pink: #e84393;
+  --pink-soft: #fce4ec;
+
+  --text-primary: #2d3436;
+  --text-secondary: #636e72;
+  --text-muted: #b2bec3;
+  --border: #dce8f0;
+  --border-light: #e8f0f5;
+  --shadow-sm: 0 1px 3px rgba(9,132,227,0.06);
+  --shadow: 0 4px 16px rgba(9,132,227,0.08);
+  --shadow-lg: 0 12px 40px rgba(9,132,227,0.1);
+  --shadow-hover: 0 8px 25px rgba(9,132,227,0.12);
+}
+
+/* ── 暖阳主题 (Warm) ── */
+[data-theme="warm"] {
+  --bg-primary: #fdf6f0;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fffaf5;
+  --bg-sidebar: #ffffff;
+  --bg-modal: #ffffff;
+
+  --accent: #e17055;
+  --accent-soft: #fdf0ea;
+  --accent2: #f39c12;
+  --accent2-soft: #fef5e7;
+  --accent3: #d63031;
+  --accent3-soft: #fde8e8;
+
+  --green: #6ab04c;
+  --green-soft: #eef8e8;
+  --orange: #f0932b;
+  --orange-soft: #fef5e7;
+  --pink: #e84393;
+  --pink-soft: #fce4ec;
+
+  --text-primary: #3d2e24;
+  --text-secondary: #8a7a6e;
+  --text-muted: #c0b0a4;
+  --border: #f0e6dc;
+  --border-light: #f5ede5;
+  --shadow-sm: 0 1px 3px rgba(225,112,85,0.06);
+  --shadow: 0 4px 16px rgba(225,112,85,0.08);
+  --shadow-lg: 0 12px 40px rgba(225,112,85,0.1);
+  --shadow-hover: 0 8px 25px rgba(225,112,85,0.12);
+}

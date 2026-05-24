@@ -1,0 +1,30 @@
+# ── H2 数据库文件 ──
+back/data/
+
+# ── 构建产物 ──
+back/target/
+back/*.jar
+back/*.war
+*.class
+front/node_modules/
+front/dist/
+front/.env.local
+
+# ── IDE ──
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── Logs ──
+*.log
+# ---scripts---
+*.sh
+*.bat
+*.conf
+*.yml
